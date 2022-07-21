@@ -10,7 +10,7 @@ Full details of the solutions will be listed below, but for the sake convenience
 
 # Constraints
 
-Brainf**k derivatives and clones will be considered identical to Brainf**k and will not be used.
+Brainf\*\*k derivatives and clones will be considered identical to Brainf\*\*k and will not be used.
 
 Lisp derivatives are considered distinct. For example, Racket, ELisp, and Common Lisp will all be considered as distinct options.
 
