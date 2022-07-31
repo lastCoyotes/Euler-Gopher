@@ -39,15 +39,18 @@ func main() {
 	// time n^2 complexity
 	for x = 999; x > 0; x--{
 		for y = 999; y > 0; y--{
-			fmt.Println("Integers: " + strconv.Itoa(x) + ", " + strconv.Itoa(y))
+			// fmt.Println("Integers: " + strconv.Itoa(x) + ", " + strconv.Itoa(y))
 			if checkpalindrome(x*y){
 				if x*y > largest{
 					largest = x*y
+					fmt.Println("Integers: " + strconv.Itoa(x) + " and " + strconv.Itoa(y))
+				} else {
+					break
 				}
 			}
 		}
 	}
 
 	fmt.Println("Largest palindrome from the product of two 3-digit numbers is " + strconv.Itoa(largest))
-	
+
 }
