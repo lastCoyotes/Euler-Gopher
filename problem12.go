@@ -22,6 +22,6 @@ func listDivisors(x int)(ret []int){
 func main() {
 
 	for n:=0; len(listDivisors(nthTriangleNumber(n))) < 500; n++{
-		println(nthTriangleNumber(n))
+		println(nthTriangleNumber(n+1))
 	}
 }
